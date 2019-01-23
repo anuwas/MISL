@@ -1,0 +1,38 @@
+using System.CodeDom.Compiler;
+using System.Collections.Generic;
+using System.Collections;
+using System.ComponentModel;
+using System.Diagnostics.CodeAnalysis;
+using System.Globalization;
+using System.IO;
+using System.Linq;
+using System.Reflection;
+using System.Runtime.Serialization;
+using System.Text.RegularExpressions;
+using System.Text;
+using System;
+using System.Text.RegularExpressions;
+
+namespace Rextester
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            
+            
+            // by this way you can take input array as space separated element 
+            int firstArraySize = Convert.ToInt32(Console.ReadLine());
+            double[] firstArray = new double[firstArraySize];
+            string[] in1 = Console.ReadLine().Split(' ');
+            Console.WriteLine(in1[0]);
+            
+           // if you want individual element and assign into array 
+            int firstArraySize = Convert.ToInt32(Console.ReadLine());
+           for (int i = 0; i < firstArraySize; i++) {
+            //string[] nk = Console.ReadLine().Split(' ');
+            int inputelement = Convert.ToInt32(Console.ReadLine());
+        }
+        }
+    }
+}
